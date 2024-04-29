@@ -1,0 +1,20 @@
+.box {
+   text-align: center;
+}
+
+.box p{
+    font-size: 24px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.answerbox .answer{
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.anshead{
+    color: red;
+    font-size: 19px;
+}

@@ -1,0 +1,123 @@
+/* BookReviewPage.css */
+.page-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-container {
+    display: flex;
+    text-align: center;
+    text-emphasis-color: white;
+  }
+  
+  .book-image {
+    height: 24rem; 
+    width: 18rem; 
+  }
+  
+  .review-form {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:#800080;
+  }
+  
+  .content-box {
+    border: 1px solid #fff; 
+    padding: 5px;
+    padding-left: 32px;
+    color: black; 
+    width: 90%; 
+    background-color:#d8bfd8;
+  }
+  
+  .content-box-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content-label {
+    font-weight: bold;
+  }
+  
+  .content-text {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .content-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 90%; /* Expand to full width of content-box */
+    background-color: #fff;
+  }
+  
+  .review-box {
+    flex: 1; /* Cover the available width */
+    width: 90%;
+    border: black;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  .review-container {
+    flex: 1; /* Cover the available width */
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px 0; /* Decrease the gap between the review box and the upper part */
+  }
+  .review-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 25px;
+    margin: 10px;
+    /*color: #fe4164;*/
+    color: black;
+  }
+  
+  .review-form {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review-form button {
+   /* background-color: #fe4164;  Pink background */
+   background-color:black;
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Styles for user-submitted reviews */
+  .user-reviews {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .user-reviews ul {
+    list-style-type: disc;
+  }
+  
+  .user-reviews ul li {
+    font-size: 16px;
+    margin: 10px 0;
+  }

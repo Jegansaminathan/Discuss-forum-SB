@@ -1,0 +1,68 @@
+.questionMain{
+    text-align: center;
+   }
+
+.questionMain h2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.questionContainer{
+    margin: 20px;
+    background-color: rgb(255, 161, 161);
+    color: black;
+}
+.questionContainer p{
+    
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+
+}
+.questionContainer textarea {
+    padding: 10px;
+    padding: 0px 80px;
+    margin-bottom: 20px;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+}
+/* .button1{
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 40px;
+    height: 10px;
+} */
+.inside button,.st{
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+
+
+}
+
+.modal-content textarea,input{
+    border: 2px solid gray;
+}
+.inside .ss{
+   background-color: rgb(255, 232, 232);
+   width: 60px;
+   height: 40px;
+   padding: 10px;margin: 10px;
+}
+
+.ask-question-btn{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: end;
+}

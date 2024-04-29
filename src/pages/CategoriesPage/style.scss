@@ -1,0 +1,105 @@
+.wrapper-cat-page{
+.footer-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Style the container that wraps your products */
+  .breads {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style the container for your product boxes */
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  /* Style individual product boxes */
+  /* Style individual product boxes */
+.box {
+  flex-basis: calc(25% - 20px); /* Adjusted to make 4 containers in a row */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+.image-container {
+  max-width: 70%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+  /* Style the heart and eye icons */
+  .box a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  /* Style the product image */
+  /* Style the product image */
+.box img {
+  width: 100%; /* Use width: 100% to fully fit the image inside the container */
+  height: auto;
+  border-radius: 5px;
+}
+
+  /* Style the product name */
+  h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Style the star ratings */
+  .stars {
+    color: #f7b943;
+    margin-bottom: 10px;
+  }
+  
+  .stars i {
+    margin-right: 2px;
+  }
+  
+  /* Style the product price */
+  span {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Style the "Buy now" button */
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #a626f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #e69f00;
+  }
+  }
+
+  // categories
+
+  .questionMain{
+   text-align: center;
+  }

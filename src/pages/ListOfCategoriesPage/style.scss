@@ -1,0 +1,28 @@
+.wrapper-listof-cat{
+
+img{
+    max-width: 320px;
+    height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn{
+    float: right;
+    margin-top: 2.5rem ;
+    border-radius: 10px;
+    background: lavender;
+    color: #000000;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btn:hover{
+    background: #7e7878;
+    color: #ffffff;
+}
+}
